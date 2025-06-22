@@ -1,0 +1,38 @@
+server:
+  port: 9090
+
+spring:
+  security:
+    user:
+      name: basak
+      password: Basak123
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/java17xdb
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 22096915a@gmail.com
+    password: ykpmmyrthutydkad
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+java17:
+  jwt:
+    secret-key: w.+.Wi+NqVDqVpFwMUchmZaJ8]q@X#Vf#2gAL(~}l[.fOg8vdE
+    issuer: Java17X
+
