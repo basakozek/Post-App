@@ -1,4 +1,4 @@
-TwitterDemo
+
 TwitterDemo is a Spring Boot-based RESTful API application that simulates a simplified Twitter-like platform. It allows users to register, activate their accounts via email, authenticate with JWT tokens, create posts, and view posts made by themselves or others. The application integrates secure user management with role-based authorization, token-based authentication, and provides API documentation through Swagger.
 
 Key Features:
